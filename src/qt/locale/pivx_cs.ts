@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your BECN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše BECN adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your XXX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše XXX adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your BECN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše BECN adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your XXX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše XXX adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>BECN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BECNs from being stolen by malware infecting your computer.</source>
-        <translation>BECN se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše BECNy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>XXX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XXXs from being stolen by malware infecting your computer.</source>
+        <translation>XXX se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše XXXy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Opravdu chcete zašifrovat Vaši peněženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BECN&lt;/b&gt;!</source>
-        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE BECNy&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XXX&lt;/b&gt;!</source>
+        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE XXXy&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -397,8 +397,8 @@
         <translation>Procházet historii transakcí</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBECN</source>
-        <translation>Řešení soukromí pro zBECN</translation>
+        <source>Privacy Actions for zXXX</source>
+        <translation>Řešení soukromí pro zXXX</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -601,12 +601,12 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>Beacon</source>
-        <translation>Beacon</translation>
+        <source>Adultchain</source>
+        <translation>Adultchain</translation>
     </message>
     <message>
-        <source>Send coins to a BECN address</source>
-        <translation>Odeslat platbuna BECN adresu</translation>
+        <source>Send coins to a XXX address</source>
+        <translation>Odeslat platbuna XXX adresu</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and becn: URIs)</source>
@@ -625,24 +625,24 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About Beacon</source>
-        <translation>&amp;O Beacon</translation>
+        <source>&amp;About Adultchain</source>
+        <translation>&amp;O Adultchain</translation>
     </message>
     <message>
-        <source>Show information about Beacon</source>
-        <translation>Zobraz informace o Beacon</translation>
+        <source>Show information about Adultchain</source>
+        <translation>Zobraz informace o Adultchain</translation>
     </message>
     <message>
-        <source>Modify configuration options for BECN</source>
-        <translation>Upravit možnosti konfigurace pro BECN</translation>
+        <source>Modify configuration options for XXX</source>
+        <translation>Upravit možnosti konfigurace pro XXX</translation>
     </message>
     <message>
-        <source>Sign messages with your BECN addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší BECN adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your XXX addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší XXX adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BECN addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými BECN adresami</translation>
+        <source>Verify messages to ensure they were signed with specified XXX addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými XXX adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -673,8 +673,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a BECN: URI or payment request</source>
-        <translation>Otevřít BECN: URI nebo platební žádost</translation>
+        <source>Open a XXX: URI or payment request</source>
+        <translation>Otevřít XXX: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -685,12 +685,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the Beacon help message to get a list with possible BECN command-line options</source>
-        <translation>Zobrazit Beacon pomocnou zpráv pro získání seznamu možných parametrů BECN pro příkazy do příkazové řádky</translation>
+        <source>Show the Adultchain help message to get a list with possible XXX command-line options</source>
+        <translation>Zobrazit Adultchain pomocnou zpráv pro získání seznamu možných parametrů XXX pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>Beacon client</source>
-        <translation>Beacon klient</translation>
+        <source>Adultchain client</source>
+        <translation>Adultchain klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -820,8 +820,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (beacon.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (beacon.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (adultchain.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (adultchain.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1081,8 +1081,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid BECN address.</source>
-        <translation>Zadaná adresa "%1" není validní BECN adresa.</translation>
+        <source>The entered address "%1" is not a valid XXX address.</source>
+        <translation>Zadaná adresa "%1" není validní XXX adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1138,12 +1138,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>Beacon</source>
-        <translation>Beacon</translation>
+        <source>Adultchain</source>
+        <translation>Adultchain</translation>
     </message>
     <message>
-        <source>About Beacon</source>
-        <translation>O Beacon</translation>
+        <source>About Adultchain</source>
+        <translation>O Adultchain</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1177,16 +1177,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to Beacon.</source>
-        <translation>Vítejte v Beacon.</translation>
+        <source>Welcome to Adultchain.</source>
+        <translation>Vítejte v Adultchain.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Beacon will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Beacon ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Adultchain will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Adultchain ukládat svá data.</translation>
     </message>
     <message>
-        <source>Beacon will download and store a copy of the BECN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Beacon stáhne a uloží kopii BECN blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>Adultchain will download and store a copy of the XXX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Adultchain stáhne a uloží kopii XXX blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1197,8 +1197,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>Beacon</source>
-        <translation>Beacon</translation>
+        <source>Adultchain</source>
+        <translation>Adultchain</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1480,12 +1480,12 @@ MultiSend: %1</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start BECN after logging in to the system.</source>
-        <translation>Automaticky spustit BECN po přihlášení do systému</translation>
+        <source>Automatically start XXX after logging in to the system.</source>
+        <translation>Automaticky spustit XXX po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start BECN on system login</source>
-        <translation>&amp;Spusti BECN při přihlášení do systému</translation>
+        <source>&amp;Start XXX on system login</source>
+        <translation>&amp;Spusti XXX při přihlášení do systému</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -1690,8 +1690,8 @@ MultiSend: %1</translation>
         <translation>N/A</translation>
     </message>
     <message>
-        <source>Beacon</source>
-        <translation>Beacon</translation>
+        <source>Adultchain</source>
+        <translation>Adultchain</translation>
     </message>
     </context>
 <context>
@@ -2016,8 +2016,8 @@ MultiSend: %1</translation>
         <translation>Změna:</translation>
     </message>
     <message>
-        <source>0 BECN</source>
-        <translation>0 BECN</translation>
+        <source>0 XXX</source>
+        <translation>0 XXX</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2141,8 +2141,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The BECN address to sign the message with</source>
-        <translation>BECN adresa pro podepsání zprávy</translation>
+        <source>The XXX address to sign the message with</source>
+        <translation>XXX adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2169,16 +2169,16 @@ MultiSend: %1</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BECN address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto BECN adresu</translation>
+        <source>Sign the message to prove you own this XXX address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto XXX adresu</translation>
     </message>
     <message>
-        <source>The BECN address the message was signed with</source>
-        <translation>BECN adresa zprávy byla podpsána</translation>
+        <source>The XXX address the message was signed with</source>
+        <translation>XXX adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BECN address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou BECN adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified XXX address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou XXX adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2220,8 +2220,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Beacon</source>
-        <translation>Beacon</translation>
+        <source>Adultchain</source>
+        <translation>Adultchain</translation>
     </message>
     </context>
 <context>

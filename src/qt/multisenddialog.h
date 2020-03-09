@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BECN_QT_MULTISENDDIALOG_H
-#define BECN_QT_MULTISENDDIALOG_H
+#ifndef XXX_QT_MULTISENDDIALOG_H
+#define XXX_QT_MULTISENDDIALOG_H
 
 #include <QDialog>
 
@@ -38,4 +38,4 @@ private:
     WalletModel* model;
 };
 
-#endif // BECN_QT_MULTISENDDIALOG_H
+#endif // XXX_QT_MULTISENDDIALOG_H

@@ -31,7 +31,7 @@ class QUrl;
 class QWidget;
 QT_END_NAMESPACE
 
-/** Utility functions used by the BECN Qt UI.
+/** Utility functions used by the XXX Qt UI.
  */
 namespace GUIUtil
 {
@@ -39,7 +39,7 @@ namespace GUIUtil
 QString dateTimeStr(const QDateTime& datetime);
 QString dateTimeStr(qint64 nTime);
 
-// Render BECN addresses in monospace font
+// Render XXX addresses in monospace font
 QFont bitcoinAddressFont();
 
 // Set up widgets for address and amounts
@@ -112,7 +112,7 @@ bool isObscured(QWidget* w);
 // Open debug.log
 void openDebugLogfile();
 
-// Open beacon.conf
+// Open adultchain.conf
 void openConfigfile();
 
 // Open masternode.conf

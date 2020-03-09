@@ -69,7 +69,7 @@ private:
     /** Mutex protects entire object */
     std::mutex cs;
     std::condition_variable cond;
-    /* XXX in C++11 we can use std::unique_ptr here and avoid manual cleanup */
+    /* Adultchain in C++11 we can use std::unique_ptr here and avoid manual cleanup */
     std::deque<WorkItem*> queue;
     bool running;
     size_t maxDepth;
@@ -403,14 +403,14 @@ bool InitHTTPServer()
     evthread_use_pthreads();
 #endif
 
-    base = event_base_new(); // XXX RAII
+    base = event_base_new(); // Adultchain RAII
     if (!base) {
         LogPrintf("Couldn't create an event_base: exiting\n");
         return false;
     }
 
     /* Create a new evhttp object to handle requests. */
-    http = evhttp_new(base); // XXX RAII
+    http = evhttp_new(base); // Adultchain RAII
     if (!http) {
         LogPrintf("couldn't create evhttp. Exiting.\n");
         event_base_free(base);

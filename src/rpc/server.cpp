@@ -265,11 +265,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw std::runtime_error(
             "stop\n"
-            "\nStop BECN server.");
+            "\nStop XXX server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "BECN server stopping";
+    return "XXX server stopping";
 }
 
 
@@ -362,35 +362,35 @@ static const CRPCCommand vRPCCommands[] =
         { "hidden",             "waitforblock",           &waitforblock,           true,  true,  false  },
         { "hidden",             "waitforblockheight",     &waitforblockheight,     true,  true,  false  },
 
-        /* Beacon features */
-        {"beacon", "listmasternodes", &listmasternodes, true, true, false},
-        {"beacon", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"beacon", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"beacon", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
-        {"beacon", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
-        {"beacon", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
-        {"beacon", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"beacon", "masternodedebug", &masternodedebug, true, true, false},
-        {"beacon", "startmasternode", &startmasternode, true, true, false},
-        {"beacon", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"beacon", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"beacon", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"beacon", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"beacon", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"beacon", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"beacon", "preparebudget", &preparebudget, true, true, false},
-        {"beacon", "submitbudget", &submitbudget, true, true, false},
-        {"beacon", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"beacon", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"beacon", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"beacon", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"beacon", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"beacon", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"beacon", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"beacon", "checkbudgets", &checkbudgets, true, true, false},
-        {"beacon", "mnsync", &mnsync, true, true, false},
-        {"beacon", "spork", &spork, true, true, false},
-        {"beacon", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* Adultchain features */
+        {"adultchain", "listmasternodes", &listmasternodes, true, true, false},
+        {"adultchain", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"adultchain", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"adultchain", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
+        {"adultchain", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
+        {"adultchain", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
+        {"adultchain", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"adultchain", "masternodedebug", &masternodedebug, true, true, false},
+        {"adultchain", "startmasternode", &startmasternode, true, true, false},
+        {"adultchain", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"adultchain", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"adultchain", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"adultchain", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"adultchain", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"adultchain", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"adultchain", "preparebudget", &preparebudget, true, true, false},
+        {"adultchain", "submitbudget", &submitbudget, true, true, false},
+        {"adultchain", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"adultchain", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"adultchain", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"adultchain", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"adultchain", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"adultchain", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"adultchain", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"adultchain", "checkbudgets", &checkbudgets, true, true, false},
+        {"adultchain", "mnsync", &mnsync, true, true, false},
+        {"adultchain", "spork", &spork, true, true, false},
+        {"adultchain", "getpoolinfo", &getpoolinfo, true, true, false},
 
 #ifdef ENABLE_WALLET
         /* Wallet */
@@ -630,7 +630,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(std::string methodname, std::string args)
 {
-    return "> beacon-cli " + methodname + " " + args + "\n";
+    return "> adultchain-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(std::string methodname, std::string args)

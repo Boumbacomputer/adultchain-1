@@ -45,10 +45,10 @@ static bool AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Beacon Core beacon-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Adultchain adultchain-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
-                               "  beacon-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded pivx transaction") + "\n" +
-                               "  beacon-tx [options] -create [commands]   " + _("Create hex-encoded pivx transaction") + "\n" +
+                               "  adultchain-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded adultchain transaction") + "\n" +
+                               "  adultchain-tx [options] -create [commands]   " + _("Create hex-encoded adultchain transaction") + "\n" +
                                "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
@@ -566,7 +566,7 @@ static int CommandLineRawTx(int argc, char* argv[])
             if (argc < 2)
                 throw std::runtime_error("too few parameters");
 
-            // param: hex-encoded pivx transaction
+            // param: hex-encoded adultchain transaction
             std::string strHexTx(argv[1]);
             if (strHexTx == "-") // "-" implies standard input
                 strHexTx = readStdin();

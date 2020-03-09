@@ -10,8 +10,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between beacon-cli and beacond)
- * of a given instance of the Beacon system.
+ * CBaseChainParams defines the base parameters (shared between adultchain-cli and adultchaind)
+ * of a given instance of the Adultchain system.
  */
 class CBaseChainParams
 {

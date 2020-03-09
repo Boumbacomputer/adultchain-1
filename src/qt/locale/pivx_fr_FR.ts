@@ -62,12 +62,12 @@
         <translation>Adresses de réception</translation>
     </message>
     <message>
-        <source>These are your BECN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Voici vos adresses BECN pour envoyer des paiements.  Assurez-vous de toujours vérifier le montant et l'adresse de réception avant d'envoyer les jetons</translation>
+        <source>These are your XXX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Voici vos adresses XXX pour envoyer des paiements.  Assurez-vous de toujours vérifier le montant et l'adresse de réception avant d'envoyer les jetons</translation>
     </message>
     <message>
-        <source>These are your BECN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Voici vos adresses BECN pour les réceptions de vos paiments. Il est recommandé d'utiliser une nouvelle adresse de réception pour chaque transaction.</translation>
+        <source>These are your XXX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Voici vos adresses XXX pour les réceptions de vos paiments. Il est recommandé d'utiliser une nouvelle adresse de réception pour chaque transaction.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>BECN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BECNs from being stolen by malware infecting your computer.</source>
-        <translation>BECN va maintenant se fermer pour finir le processus de cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos BECNs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>XXX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XXXs from being stolen by malware infecting your computer.</source>
+        <translation>XXX va maintenant se fermer pour finir le processus de cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos XXXs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Êtes-vous sûr de vouloir crypter votre portefeuille?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BECN&lt;/b&gt;!</source>
-        <translation>Attention : si vous cryptez votre portefeuille et perdez votre phrase secrète, vous &lt;b&gt;PERDREZ TOUS VOS BECN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XXX&lt;/b&gt;!</source>
+        <translation>Attention : si vous cryptez votre portefeuille et perdez votre phrase secrète, vous &lt;b&gt;PERDREZ TOUS VOS XXX&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,12 +254,12 @@
         <translation>Adresse :</translation>
     </message>
     <message>
-        <source>Enter a BECN Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Entrez une adresse BECN que vous voulez chiffrer en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur chiffrer pour calculer le chiffrage de la clé privée.</translation>
+        <source>Enter a XXX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Entrez une adresse XXX que vous voulez chiffrer en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur chiffrer pour calculer le chiffrage de la clé privée.</translation>
     </message>
     <message>
-        <source>The BECN address to encrypt</source>
-        <translation>L'adresse BECN à chiffrer</translation>
+        <source>The XXX address to encrypt</source>
+        <translation>L'adresse XXX à chiffrer</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this BECN address</source>
-        <translation>Chiffrer la clef privée pour cette adresse BECN</translation>
+        <source>Encrypt the private key for this XXX address</source>
+        <translation>Chiffrer la clef privée pour cette adresse XXX</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>Afficher l'historique de transaction</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBECN</source>
-        <translation>Actions confidentielles pour zBECN</translation>
+        <source>Privacy Actions for zXXX</source>
+        <translation>Actions confidentielles pour zXXX</translation>
     </message>
     <message>
         <source>&amp;Governance</source>
@@ -653,16 +653,16 @@
         <translation>Onglets de la barre d'outils</translation>
     </message>
     <message>
-        <source>Beacon</source>
-        <translation>Beacon</translation>
+        <source>Adultchain</source>
+        <translation>Adultchain</translation>
     </message>
     <message>
-        <source>Send coins to a BECN address</source>
-        <translation>Envoyer des pièces à une adresse BECN</translation>
+        <source>Send coins to a XXX address</source>
+        <translation>Envoyer des pièces à une adresse XXX</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and becn: URIs)</source>
-        <translation>Requêtes de paiements (Génère des QR codes et des URIs BECN)</translation>
+        <translation>Requêtes de paiements (Génère des QR codes et des URIs XXX)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -677,24 +677,24 @@
         <translation>Afficher les masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Beacon</source>
-        <translation>A &amp;propos de Beacon</translation>
+        <source>&amp;About Adultchain</source>
+        <translation>A &amp;propos de Adultchain</translation>
     </message>
     <message>
-        <source>Show information about Beacon</source>
-        <translation>Afficher les information concernant Beacon</translation>
+        <source>Show information about Adultchain</source>
+        <translation>Afficher les information concernant Adultchain</translation>
     </message>
     <message>
-        <source>Modify configuration options for BECN</source>
-        <translation>Modifier les options de configuration pour BECN</translation>
+        <source>Modify configuration options for XXX</source>
+        <translation>Modifier les options de configuration pour XXX</translation>
     </message>
     <message>
-        <source>Sign messages with your BECN addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresse BECN pour prouver qu'elles sont bien à vous.</translation>
+        <source>Sign messages with your XXX addresses to prove you own them</source>
+        <translation>Signer les messages avec votre adresse XXX pour prouver qu'elles sont bien à vous.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BECN addresses</source>
-        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse BECN spécifiée</translation>
+        <source>Verify messages to ensure they were signed with specified XXX addresses</source>
+        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse XXX spécifiée</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -725,8 +725,8 @@
         <translation>Ouvrir le fichier de configuration de Masternode</translation>
     </message>
     <message>
-        <source>Open a BECN: URI or payment request</source>
-        <translation>Ouvrir un BECN: URI ou requête de paiement</translation>
+        <source>Open a XXX: URI or payment request</source>
+        <translation>Ouvrir un XXX: URI ou requête de paiement</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -737,12 +737,12 @@
         <translation>Fenêtre de Explorateur de Bloc</translation>
     </message>
     <message>
-        <source>Show the Beacon help message to get a list with possible BECN command-line options</source>
-        <translation>Afficher les message d'aide de Beacon pour avoir les options pour ligne de commande</translation>
+        <source>Show the Adultchain help message to get a list with possible XXX command-line options</source>
+        <translation>Afficher les message d'aide de Adultchain pour avoir les options pour ligne de commande</translation>
     </message>
     <message>
-        <source>Beacon client</source>
-        <translation>Beacon client</translation>
+        <source>Adultchain client</source>
+        <translation>Adultchain client</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -853,8 +853,8 @@ Adresse : %4
         <translation>Le portefeuille est &lt;b&gt;crypté&lt;/b&gt; et actuellement &lt;b&gt;verrouillé&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. BECN can no longer continue safely and will quit.</source>
-        <translation>Une erreur fatale s'est produite. Beacon ne peut plus poursuivre en toute sécurité et va quitter.</translation>
+        <source>A fatal error occurred. XXX can no longer continue safely and will quit.</source>
+        <translation>Une erreur fatale s'est produite. Adultchain ne peut plus poursuivre en toute sécurité et va quitter.</translation>
     </message>
 </context>
 <context>
@@ -884,8 +884,8 @@ Adresse : %4
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (beacon.conf).</source>
-        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (beacon.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (adultchain.conf).</source>
+        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (adultchain.conf).</translation>
     </message>
 </context>
 <context>
@@ -1177,8 +1177,8 @@ Adresse : %4
         <translation>Modifier l'adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid BECN address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse BECN valide</translation>
+        <source>The entered address "%1" is not a valid XXX address.</source>
+        <translation>L'adresse entrée "%1" n'est pas une adresse XXX valide</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1266,16 +1266,16 @@ Adresse : %4
         <translation>version</translation>
     </message>
     <message>
-        <source>Beacon</source>
-        <translation>Beacon</translation>
+        <source>Adultchain</source>
+        <translation>Adultchain</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Beacon</source>
-        <translation>A propos de Beacon</translation>
+        <source>About Adultchain</source>
+        <translation>A propos de Adultchain</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1321,16 +1321,16 @@ Adresse : %4
         <translation>Bienvenu</translation>
     </message>
     <message>
-        <source>Welcome to Beacon.</source>
-        <translation>Bienvenue à Beacon</translation>
+        <source>Welcome to Adultchain.</source>
+        <translation>Bienvenue à Adultchain</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Beacon will store its data.</source>
-        <translation>Comme c'est la première fois que le programme est lancé, vous pouvez choisir où Beacon va stocker ses données.</translation>
+        <source>As this is the first time the program is launched, you can choose where Adultchain will store its data.</source>
+        <translation>Comme c'est la première fois que le programme est lancé, vous pouvez choisir où Adultchain va stocker ses données.</translation>
     </message>
     <message>
-        <source>Beacon will download and store a copy of the BECN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Beacon téléchargera et stockera une copie de la chaîne de blocs BECN. Au moins %1 Go de données sera stocké dans ce répertoire, et il va augmenter au fil du temps. Le portefeuille sera également stocké dans ce répertoire.</translation>
+        <source>Adultchain will download and store a copy of the XXX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Adultchain téléchargera et stockera une copie de la chaîne de blocs XXX. Au moins %1 Go de données sera stocké dans ce répertoire, et il va augmenter au fil du temps. Le portefeuille sera également stocké dans ce répertoire.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1341,8 +1341,8 @@ Adresse : %4
         <translation>Utiliser un répertoire spécifique de données </translation>
     </message>
     <message>
-        <source>Beacon</source>
-        <translation>Beacon</translation>
+        <source>Adultchain</source>
+        <translation>Adultchain</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1483,12 +1483,12 @@ Adresse : %4
         <translation>Saisir l'adresse à laquelle envoyer</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other BECN addresses after it matures.
-To Add: enter percentage to give and BECN address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other XXX addresses after it matures.
+To Add: enter percentage to give and XXX address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>L'Envoi-multiple vous perment d'envoyer automatiquement jusqu'à 100% de vos récompenses Stake ou Masternode à une liste d'adresses BECN  après leur maturité.
-Pour ajouter: entrez le pourcentage à donner et l'adresse BECN à ajouter au vecteur d'Envoi-multiple.
+        <translation>L'Envoi-multiple vous perment d'envoyer automatiquement jusqu'à 100% de vos récompenses Stake ou Masternode à une liste d'adresses XXX  après leur maturité.
+Pour ajouter: entrez le pourcentage à donner et l'adresse XXX à ajouter au vecteur d'Envoi-multiple.
 Pour supprimer: Entrez l'adresse à effacer et appuyez sur Supprimer.
 L'Envoi-multiple ne sera activé que si vous avez cliqué sur Activer</translation>
     </message>
@@ -1746,8 +1746,8 @@ S'il vous plaît soyez patient après avoir cliqué sur l'importation.</translat
         <translation>Adresse / Montant:</translation>
     </message>
     <message>
-        <source>Add destinations to send BECN to</source>
-        <translation>Ajouter des destinations pour envoyer BECN</translation>
+        <source>Add destinations to send XXX to</source>
+        <translation>Ajouter des destinations pour envoyer XXX</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1880,8 +1880,8 @@ S'il vous plaît soyez patient après avoir cliqué sur l'importation.</translat
         <translation>SI vous désactivez la dépense de la monnaire non confirmée, la monnaie rendue sur une transaction &lt;br/&gt;ne peut pas être utilisée tant que celle-ci n'a pas reçue au moins une confirmation &lt;br/&gt;Ceci implique également la manière dont votre solde est calculé.</translation>
     </message>
     <message>
-        <source>Automatically open the BECN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir automatiquement le port du client BECN sur le routeur. Ceci fonctionne uniquement si votre routeur prend en charge UPnP et que celui-ci est activé.</translation>
+        <source>Automatically open the XXX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir automatiquement le port du client XXX sur le routeur. Ceci fonctionne uniquement si votre routeur prend en charge UPnP et que celui-ci est activé.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1900,12 +1900,12 @@ S'il vous plaît soyez patient après avoir cliqué sur l'importation.</translat
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start BECN after logging in to the system.</source>
-        <translation>Démarrez BECN automatiquement après vous être connecté au système.</translation>
+        <source>Automatically start XXX after logging in to the system.</source>
+        <translation>Démarrez XXX automatiquement après vous être connecté au système.</translation>
     </message>
     <message>
-        <source>&amp;Start BECN on system login</source>
-        <translation>Démarrer BECN au démarrage système</translation>
+        <source>&amp;Start XXX on system login</source>
+        <translation>Démarrer XXX au démarrage système</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1932,8 +1932,8 @@ S'il vous plaît soyez patient après avoir cliqué sur l'importation.</translat
         <translation>Réseau</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting BECN.</source>
-        <translation>La langue de l'interface utilisateur peut être définie ici. Ce paramètre prendra effet après le redémarrage de BECN.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting XXX.</source>
+        <translation>La langue de l'interface utilisateur peut être définie ici. Ce paramètre prendra effet après le redémarrage de XXX.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1946,44 +1946,44 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Répertorier les port utilisant UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of BECN units to zBECN</source>
-        <translation>Activé l'auto-monnayage de BECN unités en zBECN</translation>
+        <source>Enable automatic minting of XXX units to zXXX</source>
+        <translation>Activé l'auto-monnayage de XXX unités en zXXX</translation>
     </message>
     <message>
-        <source>Enable zBECN Automint</source>
-        <translation>Activer l'Auto-monnayage zBECN </translation>
+        <source>Enable zXXX Automint</source>
+        <translation>Activer l'Auto-monnayage zXXX </translation>
     </message>
     <message>
-        <source>Enable automatic zBECN minting from specific addresses</source>
-        <translation>Activer la frappe zBECN automatique à partir d'adresses spécifiques</translation>
+        <source>Enable automatic zXXX minting from specific addresses</source>
+        <translation>Activer la frappe zXXX automatique à partir d'adresses spécifiques</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Activer les Adresses Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming BECN which get automatically converted to zBECN via Zerocoin Protocol (min: 10%)</source>
-        <translation>Pourcentage des BECN entrants qui seront automatiquement convertis en zBECN via le protocole Zerocoin (min. 10%)</translation>
+        <source>Percentage of incoming XXX which get automatically converted to zXXX via Zerocoin Protocol (min: 10%)</source>
+        <translation>Pourcentage des XXX entrants qui seront automatiquement convertis en zXXX via le protocole Zerocoin (min. 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zBECN</source>
-        <translation>Pourcentage de zBECN auto-monnayé</translation>
+        <source>Percentage of autominted zXXX</source>
+        <translation>Pourcentage de zXXX auto-monnayé</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough BECN for this denomination is available</source>
-        <translation>Met en attente la conversion automatique Zerocoin jusqu'à ce qu'il y ai suffisament de BECN disponibles pour la dénomination demandée</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough XXX for this denomination is available</source>
+        <translation>Met en attente la conversion automatique Zerocoin jusqu'à ce qu'il y ai suffisament de XXX disponibles pour la dénomination demandée</translation>
     </message>
     <message>
-        <source>Preferred Automint zBECN Denomination</source>
-        <translation>Dénomination préférée pour l'auto-monnayage zBECN</translation>
+        <source>Preferred Automint zXXX Denomination</source>
+        <translation>Dénomination préférée pour l'auto-monnayage zXXX</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
         <translation>Seuil de partage du Stake</translation>
     </message>
     <message>
-        <source>Connect to the BECN network through a SOCKS5 proxy.</source>
-        <translation>Se connetcer au réseau BECN via un proxy SOCKS5.</translation>
+        <source>Connect to the XXX network through a SOCKS5 proxy.</source>
+        <translation>Se connetcer au réseau XXX via un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2141,8 +2141,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Solde total, incluant les pièces indisponibles.</translation>
     </message>
     <message>
-        <source>BECN Balance</source>
-        <translation>Solde de BECN</translation>
+        <source>XXX Balance</source>
+        <translation>Solde de XXX</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2165,18 +2165,18 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Solde courant bloqué dans des adresses témoin</translation>
     </message>
     <message>
-        <source>Your current BECN balance, unconfirmed and immature transactions included</source>
-        <translation>Votre solde BECN actuel, incluant les transactions non confirmées et immatures</translation>
+        <source>Your current XXX balance, unconfirmed and immature transactions included</source>
+        <translation>Votre solde XXX actuel, incluant les transactions non confirmées et immatures</translation>
     </message>
     <message>
-        <source>zBECN Balance</source>
-        <translation>Solde de zBECN</translation>
+        <source>zXXX Balance</source>
+        <translation>Solde de zXXX</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zBECN are spendable.</source>
+These zXXX are spendable.</source>
         <translation>Maturité: plus de 20 confirmations et plus de 1 monnaie de la même dénomination après sa frappe.
-Ces zBECN sont dépensables.</translation>
+Ces zXXX sont dépensables.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2185,8 +2185,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Immature: confirmé, mais moins de 1 monnaie de la même dénomination après sa frappe</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BECN network after a connection is established, but this process has not completed yet.</source>
-        <translation>Les informations affichées pourraient être périmées. Votre portefeuille se synchronise automatiquement avec le réseau BECN après l'établissement d'une connexion, mais ce processus n'est pas encore terminé.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the XXX network after a connection is established, but this process has not completed yet.</source>
+        <translation>Les informations affichées pourraient être périmées. Votre portefeuille se synchronise automatiquement avec le réseau XXX après l'établissement d'une connexion, mais ce processus n'est pas encore terminé.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2229,8 +2229,8 @@ Immature: confirmé, mais moins de 1 monnaie de la même dénomination après sa
         <translation>Dépensable:</translation>
     </message>
     <message>
-        <source>Locked BECN or Masternode collaterals. These are excluded from zBECN minting.</source>
-        <translation>BECN Verrouillé ou Masternode collatéraux. Ceux-ci sont exclus du monnayage zBECN.</translation>
+        <source>Locked XXX or Masternode collaterals. These are excluded from zXXX minting.</source>
+        <translation>XXX Verrouillé ou Masternode collatéraux. Ceux-ci sont exclus du monnayage zXXX.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2241,8 +2241,8 @@ Immature: confirmé, mais moins de 1 monnaie de la même dénomination après sa
         <translation>Non confirmé:</translation>
     </message>
     <message>
-        <source>Your current zBECN balance, unconfirmed and immature zBECN included.</source>
-        <translation>Votre solde courant zBECN, incluant les zBECN non confirmés et immatures.</translation>
+        <source>Your current zXXX balance, unconfirmed and immature zXXX included.</source>
+        <translation>Votre solde courant zXXX, incluant les zXXX non confirmés et immatures.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2253,10 +2253,10 @@ Immature: confirmé, mais moins de 1 monnaie de la même dénomination après sa
         <translation>désynchronisé</translation>
     </message>
     <message>
-        <source>Current percentage of zBECN.
+        <source>Current percentage of zXXX.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Le pourcentage actuel de zBECN.
+        <translation>Le pourcentage actuel de zXXX.
 Si l'Auto-monnayage est activé, ce pourcentage sera réglé au niveau du pourcentage d'Auto-monnayage configuré (par défaut = 10%).
 </translation>
     </message>
@@ -2265,14 +2265,14 @@ Si l'Auto-monnayage est activé, ce pourcentage sera réglé au niveau du pource
         <translation>Auto-monnayage est actuellement activé et mis à</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in beacon.conf.</source>
-        <translation>Pour désactiver Auto-monnayage, ajoutez 'enablezeromint = 0' dans beacon.conf.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in adultchain.conf.</source>
+        <translation>Pour désactiver Auto-monnayage, ajoutez 'enablezeromint = 0' dans adultchain.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in beacon.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in adultchain.conf</source>
         <translation>Auto-monnayage est actuellement désactivé.
-Pour activer Auto-monnayage, changez 'enablezeromint = 0' en 'enablezeromint = 1' dans le fichier beacon.conf</translation>
+Pour activer Auto-monnayage, changez 'enablezeromint = 0' en 'enablezeromint = 1' dans le fichier adultchain.conf</translation>
     </message>
 </context>
 <context>
@@ -2302,8 +2302,8 @@ Pour activer Auto-monnayage, changez 'enablezeromint = 0' en 'enablezeromint = 1
         <translation>Impossible de démarrer becn: gestionnaire click-to-pay</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid BECN address or malformed URI parameters.</source>
-        <translation>L'URI ne peut pas être analysée! Cela peut être dû à une adresse BECN invalide ou à des paramètres URI incorrectes.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid XXX address or malformed URI parameters.</source>
+        <translation>L'URI ne peut pas être analysée! Cela peut être dû à une adresse XXX invalide ou à des paramètres URI incorrectes.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2388,8 +2388,8 @@ Pour activer Auto-monnayage, changez 'enablezeromint = 0' en 'enablezeromint = 1
         <translation>Actions Zerocoin:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BECN network after a connection is established, but this process has not completed yet.</source>
-        <translation>Les informations affichées pourraient être périmées. Votre portefeuille se synchronise automatiquement avec le réseau BECN après l'établissement d'une connexion, mais ce processus n'est pas encore terminé.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the XXX network after a connection is established, but this process has not completed yet.</source>
+        <translation>Les informations affichées pourraient être périmées. Votre portefeuille se synchronise automatiquement avec le réseau XXX après l'établissement d'une connexion, mais ce processus n'est pas encore terminé.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2400,8 +2400,8 @@ Pour activer Auto-monnayage, changez 'enablezeromint = 0' en 'enablezeromint = 1
         <translation>0</translation>
     </message>
     <message>
-        <source>zBECN</source>
-        <translation>zBECN</translation>
+        <source>zXXX</source>
+        <translation>zXXX</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2428,12 +2428,12 @@ Pour activer Auto-monnayage, changez 'enablezeromint = 0' en 'enablezeromint = 1
         <translation>CONFIDENTIALITÉ</translation>
     </message>
     <message>
-        <source>zBECN Control</source>
-        <translation>Choisir les zBECN</translation>
+        <source>zXXX Control</source>
+        <translation>Choisir les zXXX</translation>
     </message>
     <message>
-        <source>zBECN Selected:</source>
-        <translation>zBECN sélectionnés:</translation>
+        <source>zXXX Selected:</source>
+        <translation>zXXX sélectionnés:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2448,32 +2448,32 @@ Pour activer Auto-monnayage, changez 'enablezeromint = 0' en 'enablezeromint = 1
         <translation>Dépenser les Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBECN for spending</source>
-        <translation>zBECN disponibles (matures et utilisables) pour les dépenses</translation>
+        <source>Available (mature and spendable) zXXX for spending</source>
+        <translation>zXXX disponibles (matures et utilisables) pour les dépenses</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Solde disponible:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBECN for spending
+        <source>Available (mature and spendable) zXXX for spending
 
-zBECN are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>zBECN disponibles (matures et utilisables) pour les dépenses
+zXXX are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>zXXX disponibles (matures et utilisables) pour les dépenses
 
-Les zBECN sont matures lorsqu'ils ont plus de 20 confirmations ET plus de 2 monnaies de même dénomination après leur frappe</translation>
+Les zXXX sont matures lorsqu'ils ont plus de 20 confirmations ET plus de 2 monnaies de même dénomination après leur frappe</translation>
     </message>
     <message>
-        <source>0 zBECN</source>
-        <translation>0 zBECN</translation>
+        <source>0 zXXX</source>
+        <translation>0 zXXX</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
         <translation>Payer à :</translation>
     </message>
     <message>
-        <source>The BECN address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>L'adresse BECN à laquelle envoyer le paiement. Le système créé un paiement à vous même lorsque ce champs est vide.</translation>
+        <source>The XXX address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>L'adresse XXX à laquelle envoyer le paiement. Le système créé un paiement à vous même lorsque ce champs est vide.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2524,8 +2524,8 @@ Les zBECN sont matures lorsqu'ils ont plus de 20 confirmations ET plus de 2 monn
         <translation>Statistiques Zerocoin:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zBECN</source>
-        <translation>Solde total incluant les zBECN non confirmés et immatures</translation>
+        <source>Total Balance including unconfirmed and immature zXXX</source>
+        <translation>Solde total incluant les zXXX non confirmés et immatures</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2546,24 +2546,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Immature: confirmé, mais moins de 1 monnaie de la même dénomination après sa frappe</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zBECN minting.
+        <source>Show the current status of automatic zXXX minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to beacon.conf
-- disable: add 'enablezeromint=0' to beacon.conf
+- enable: add 'enablezeromint=1' to adultchain.conf
+- disable: add 'enablezeromint=0' to adultchain.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zBECN
+- menu Settings-&gt;Options-&gt;Percentage of autominted zXXX
 
 </source>
-        <translation>Afficher l'état actuel de l'Auto-monnayage zBECN.
+        <translation>Afficher l'état actuel de l'Auto-monnayage zXXX.
 
 Pour changer le statut (redémarrage requis):
-- enable: ajoute 'enablezeromint = 1' au fichier beacon.conf
-- disable: ajoute 'enablezeromint = 0' au fichier beacon.conf
+- enable: ajoute 'enablezeromint = 1' au fichier adultchain.conf
+- disable: ajoute 'enablezeromint = 0' au fichier adultchain.conf
 
 Pour changer le pourcentage (pas de redémarrage requis):
-- menu Paramètres-&gt; Options-&gt; Pourcentage de zBECN auto-monnayé
+- menu Paramètres-&gt; Options-&gt; Pourcentage de zXXX auto-monnayé
 
 </translation>
     </message>
@@ -2612,8 +2612,8 @@ Pour changer le pourcentage (pas de redémarrage requis):
         <translation>0 x</translation>
     </message>
     <message>
-        <source>Show zBECN denominations list</source>
-        <translation>Montrer la liste des Dénominations pour zBECN</translation>
+        <source>Show zXXX denominations list</source>
+        <translation>Montrer la liste des Dénominations pour zXXX</translation>
     </message>
     <message>
         <source>Show Denominations</source>
@@ -2750,12 +2750,12 @@ Please be patient...</source>
 S'il vous plaît soyez patient ...</translation>
     </message>
     <message>
-        <source>zBECN Spend #: </source>
-        <translation>Dépense zBECN #:</translation>
+        <source>zXXX Spend #: </source>
+        <translation>Dépense zXXX #:</translation>
     </message>
     <message>
-        <source>zBECN Mint</source>
-        <translation>Monnayage zBECN</translation>
+        <source>zXXX Mint</source>
+        <translation>Monnayage zXXX</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2770,12 +2770,12 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Pourcentage cible configuré: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zBECN is currently disabled due to maintenance.</source>
-        <translation>zBECN est actuellement désactivé pour cause de maintenance.</translation>
+        <source>zXXX is currently disabled due to maintenance.</source>
+        <translation>zXXX est actuellement désactivé pour cause de maintenance.</translation>
     </message>
     <message>
-        <source>zBECN is currently undergoing maintenance.</source>
-        <translation>zBECN est actuellement en cours de maintenance.</translation>
+        <source>zXXX is currently undergoing maintenance.</source>
+        <translation>zXXX est actuellement en cours de maintenance.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2864,8 +2864,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Aucune adresse 'Payer à' de fournie, création d'un paiement local</translation>
     </message>
     <message>
-        <source>Invalid Beacon Address</source>
-        <translation>Adresse Beacon incorrecte</translation>
+        <source>Invalid Adultchain Address</source>
+        <translation>Adresse Adultchain incorrecte</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -3016,8 +3016,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Montant</translation>
     </message>
     <message>
-        <source>Enter a BECN address (e.g. %1)</source>
-        <translation>Entrez une adresse BECN (par ex. %1)</translation>
+        <source>Enter a XXX address (e.g. %1)</source>
+        <translation>Entrez une adresse XXX (par ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -3064,8 +3064,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>Beacon</source>
-        <translation>Beacon</translation>
+        <source>Adultchain</source>
+        <translation>Adultchain</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -3084,8 +3084,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Erreur de lecture du fichier de configuration Masternode: %1</translation>
     </message>
     <message>
-        <source>Beacon didn't yet exit safely...</source>
-        <translation>Beacon n'a pas encore quitté en toute sécurité ...</translation>
+        <source>Adultchain didn't yet exit safely...</source>
+        <translation>Adultchain n'a pas encore quitté en toute sécurité ...</translation>
     </message>
 </context>
 <context>
@@ -3182,7 +3182,7 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Chaîne de bloc</translation>
     </message>
     <message>
-        <source>Open the BECN debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the XXX debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Ouvrir le fichier journal de déboguage depuis le répertoire de données courant. Cela peut prendre quelques minutes pour les fichier journaux volumineux.</translation>
     </message>
     <message>
@@ -3318,8 +3318,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Chemin du répertoire de sauvegarde personnalisé:</translation>
     </message>
     <message>
-        <source>Custom zBECN Backup Path:</source>
-        <translation>Chemin du répertoire de sauvegarde zBECN personnalisé:</translation>
+        <source>Custom zXXX Backup Path:</source>
+        <translation>Chemin du répertoire de sauvegarde zXXX personnalisé:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3398,8 +3398,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Sortie:</translation>
     </message>
     <message>
-        <source>Welcome to the BECN RPC console.</source>
-        <translation>Bienvenue sur la console BECN RPC.</translation>
+        <source>Welcome to the XXX RPC console.</source>
+        <translation>Bienvenue sur la console XXX RPC.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3541,16 +3541,16 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Montant:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the BECN network.</source>
-        <translation>Un message optionnel à ajouter à la demande de paiement, lequel sera affiché lorsque la demande sera ouverte. Note: Le message ne sera pas renvoyé avec le paiement sur le réseaux BECN.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the XXX network.</source>
+        <translation>Un message optionnel à ajouter à la demande de paiement, lequel sera affiché lorsque la demande sera ouverte. Note: Le message ne sera pas renvoyé avec le paiement sur le réseaux XXX.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
         <translation>RECEVOIR</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the BECN network.</source>
-        <translation>Un message optionnel à ajouter à la demande de paiement, lequel sera affiché lorsque la demande sera ouverte. &lt;br /&gt; Note: Le message ne sera pas renvoyé avec le paiement sur le réseaux BECN.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the XXX network.</source>
+        <translation>Un message optionnel à ajouter à la demande de paiement, lequel sera affiché lorsque la demande sera ouverte. &lt;br /&gt; Note: Le message ne sera pas renvoyé avec le paiement sur le réseaux XXX.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3786,12 +3786,12 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Taille UTXO:</translation>
     </message>
     <message>
-        <source>0 BECN</source>
-        <translation>0 BECN</translation>
+        <source>0 XXX</source>
+        <translation>0 XXX</translation>
     </message>
     <message>
-        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 BECN applies</source>
-        <translation>La technologie SwiftX permet des transactions quasi instantanées - Des frais minimum de 0.01 BECN s'appliquent</translation>
+        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 XXX applies</source>
+        <translation>La technologie SwiftX permet des transactions quasi instantanées - Des frais minimum de 0.01 XXX s'appliquent</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3846,16 +3846,16 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Pièces automatiquement sélectionnées</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBECNs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBECNs in fee,&lt;br /&gt;while "at least" pays 1000 uBECNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si le tarif personnalisé est fixé à 1000 uBECN et que la transaction ne représente que 250 octets, "par kilo-octet", alors le système ne paiera que 250 uBECN en frais,&lt;br /&gt;tandis que le choix "au moins" paiera 1000 uBECN forfaitairement. Pour les transactions supérieures à un kilo-octet, les deux choix paieront les frais par kilo-octets.</translation>
+        <source>If the custom fee is set to 1000 uXXXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXXXs in fee,&lt;br /&gt;while "at least" pays 1000 uXXXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si le tarif personnalisé est fixé à 1000 uXXX et que la transaction ne représente que 250 octets, "par kilo-octet", alors le système ne paiera que 250 uXXX en frais,&lt;br /&gt;tandis que le choix "au moins" paiera 1000 uXXX forfaitairement. Pour les transactions supérieures à un kilo-octet, les deux choix paieront les frais par kilo-octets.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBECNs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBECNs in fee,&lt;br /&gt;while "total at least" pays 1000 uBECNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si le tarif personnalisé est fixé à 1000 uBECN et que la transaction ne représente que 250 octets, "par kilo-octet", alors le système ne paiera que 250 uBECN en frais,tandis que le choix "total au moins" paiera 1000 uBECN. Pour les transactions supérieures à un kilo-octet, les deux choix paieront les frais par kilo-octets.</translation>
+        <source>If the custom fee is set to 1000 uXXXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXXXs in fee,&lt;br /&gt;while "total at least" pays 1000 uXXXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si le tarif personnalisé est fixé à 1000 uXXX et que la transaction ne représente que 250 octets, "par kilo-octet", alors le système ne paiera que 250 uXXX en frais,tandis que le choix "total au moins" paiera 1000 uXXX. Pour les transactions supérieures à un kilo-octet, les deux choix paieront les frais par kilo-octets.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BECN transactions than the network can process.</source>
-        <translation>Payer les frais minimum est convenable tant qu'il y a moins de volume de transactions que d'espace dans les blocs. &lt;br /&gt; Mais sachez que cela peut aboutir à une transaction qui ne se confirmera jamais lorsqu'il y aura plus de transactions BECN que le réseau ne peut en traiter.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for XXX transactions than the network can process.</source>
+        <translation>Payer les frais minimum est convenable tant qu'il y a moins de volume de transactions que d'espace dans les blocs. &lt;br /&gt; Mais sachez que cela peut aboutir à une transaction qui ne se confirmera jamais lorsqu'il y aura plus de transactions XXX que le réseau ne peut en traiter.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3902,8 +3902,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Ajouter un destinataire</translation>
     </message>
     <message>
-        <source>Anonymized BECN</source>
-        <translation>BECN anonymisé</translation>
+        <source>Anonymized XXX</source>
+        <translation>XXX anonymisé</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3950,8 +3950,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>L'outil de séparation de bloc ne fonctionne pas avec les adresses multiples. Réessayez.</translation>
     </message>
     <message>
-        <source>Warning: Invalid BECN address</source>
-        <translation>Attention: adresse BECN invalide</translation>
+        <source>Warning: Invalid XXX address</source>
+        <translation>Attention: adresse XXX invalide</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -4053,8 +4053,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Payer à :</translation>
     </message>
     <message>
-        <source>The BECN address to send the payment to</source>
-        <translation>L'adresse BECN à laquelle envoyer le paiement</translation>
+        <source>The XXX address to send the payment to</source>
+        <translation>L'adresse XXX à laquelle envoyer le paiement</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4093,8 +4093,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Message :</translation>
     </message>
     <message>
-        <source>A message that was attached to the BECN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the BECN network.</source>
-        <translation>Un message qui était attaché au BECN: URI qui sera stockée avec la transaction pour votre référence ultérieure. Remarque: Ce message ne sera pas envoyé sur le réseau BECN.</translation>
+        <source>A message that was attached to the XXX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the XXX network.</source>
+        <translation>Un message qui était attaché au XXX: URI qui sera stockée avec la transaction pour votre référence ultérieure. Remarque: Ce message ne sera pas envoyé sur le réseau XXX.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -4120,8 +4120,8 @@ S'il vous plaît soyez patient ...</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Beacon is shutting down...</source>
-        <translation>Beacon est en cours de fermeture...</translation>
+        <source>Adultchain is shutting down...</source>
+        <translation>Adultchain est en cours de fermeture...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4143,8 +4143,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Vous pouvez signer des messages avec vos adresses pour prouver que vous les possédez. Veillez à ne rien signer d'imprécis, car des attaques de type phishing pourraient vous inciter à divulger votre identité. Ne signez que des déclarations détaillées que vous avez approuvé.</translation>
     </message>
     <message>
-        <source>The BECN address to sign the message with</source>
-        <translation>L'adresse BECN avec laquelle signer le message</translation>
+        <source>The XXX address to sign the message with</source>
+        <translation>L'adresse XXX avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4175,16 +4175,16 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BECN address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse BECN</translation>
+        <source>Sign the message to prove you own this XXX address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse XXX</translation>
     </message>
     <message>
-        <source>The BECN address the message was signed with</source>
-        <translation>L'adresse BECN avec laquelle le message a été signé</translation>
+        <source>The XXX address the message was signed with</source>
+        <translation>L'adresse XXX avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BECN address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse BECN renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified XXX address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse XXX renseignée</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -4270,8 +4270,8 @@ S'il vous plaît soyez patient ...</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Beacon</source>
-        <translation>Beacon</translation>
+        <source>Adultchain</source>
+        <translation>Adultchain</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4287,7 +4287,7 @@ S'il vous plaît soyez patient ...</translation>
     </message>
     <message>
         <source>The PIVX Core developers</source>
-        <translation>Les développeurs Beacon</translation>
+        <translation>Les développeurs Adultchain</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4550,12 +4550,12 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Reçu via Obfuscation</translation>
     </message>
     <message>
-        <source>BECN Stake</source>
-        <translation>BECN Stake</translation>
+        <source>XXX Stake</source>
+        <translation>XXX Stake</translation>
     </message>
     <message>
-        <source>zBECN Stake</source>
-        <translation>zBECN Stake</translation>
+        <source>zXXX Stake</source>
+        <translation>zXXX Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4574,32 +4574,32 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Le cryptage créé des unités</translation>
     </message>
     <message>
-        <source>Converted BECN to zBECN</source>
-        <translation>BECN converti en zBECN</translation>
+        <source>Converted XXX to zXXX</source>
+        <translation>XXX converti en zXXX</translation>
     </message>
     <message>
-        <source>Spent zBECN</source>
-        <translation>zBECN dépensés</translation>
+        <source>Spent zXXX</source>
+        <translation>zXXX dépensés</translation>
     </message>
     <message>
-        <source>Received BECN from zBECN</source>
-        <translation>BECN reçu depuis zBECN</translation>
+        <source>Received XXX from zXXX</source>
+        <translation>XXX reçu depuis zXXX</translation>
     </message>
     <message>
-        <source>Minted Change as zBECN from zBECN Spend</source>
-        <translation>Monnaie rendue à partir d'une dépense zBECN frappée comme zBECN </translation>
+        <source>Minted Change as zXXX from zXXX Spend</source>
+        <translation>Monnaie rendue à partir d'une dépense zXXX frappée comme zXXX </translation>
     </message>
     <message>
-        <source>Converted zBECN to BECN</source>
-        <translation>zBECN converti en BECN</translation>
+        <source>Converted zXXX to XXX</source>
+        <translation>zXXX converti en XXX</translation>
     </message>
     <message>
-        <source>Anonymous (zBECN Transaction)</source>
-        <translation>Anonyme (transaction zBECN)</translation>
+        <source>Anonymous (zXXX Transaction)</source>
+        <translation>Anonyme (transaction zXXX)</translation>
     </message>
     <message>
-        <source>Anonymous (zBECN Stake)</source>
-        <translation>Anonyme (zBECN Stake)</translation>
+        <source>Anonymous (zXXX Stake)</source>
+        <translation>Anonyme (zXXX Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4714,7 +4714,7 @@ S'il vous plaît soyez patient ...</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
-        <translation>BECN convertit en zBECN</translation>
+        <translation>XXX convertit en zXXX</translation>
     </message>
     <message>
         <source>Zerocoin Spend</source>
@@ -4813,12 +4813,12 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Exportation réussie</translation>
     </message>
     <message>
-        <source>Received BECN from zBECN</source>
-        <translation>BECN reçu depuis zBECN</translation>
+        <source>Received XXX from zXXX</source>
+        <translation>XXX reçu depuis zXXX</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zBECN</source>
-        <translation>Dépense Zerocoin, monnaie rendue en zBECN</translation>
+        <source>Zerocoin Spend, Change in zXXX</source>
+        <translation>Dépense Zerocoin, monnaie rendue en zXXX</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4854,8 +4854,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Envoyer des pièces</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BECN.</source>
-        <translation>SwiftX ne supporte pas l'envoi de montants aussi élevés. Les transactions sont actuellement lmitées à %1 BECN.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 XXX.</source>
+        <translation>SwiftX ne supporte pas l'envoi de montants aussi élevés. Les transactions sont actuellement lmitées à %1 XXX.</translation>
     </message>
 </context>
 <context>
@@ -4888,8 +4888,8 @@ S'il vous plaît soyez patient ...</translation>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zBECN to Spend</source>
-        <translation>Choisir les zBECN à dépenser</translation>
+        <source>Select zXXX to Spend</source>
+        <translation>Choisir les zXXX à dépenser</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4900,8 +4900,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zBECN</source>
-        <translation>zBECN</translation>
+        <source>zXXX</source>
+        <translation>zXXX</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4939,8 +4939,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Le point de contrôle de l'accumulateur qui a été calculé ne correspond pas à ce qui est enregistré par l'index de bloc</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Beacon is probably already running.</source>
-        <translation>Impossible de vérouiller le répertoire de données %s. Beacon est probablement déjà en cours d'exécution.</translation>
+        <source>Cannot obtain a lock on data directory %s. Adultchain is probably already running.</source>
+        <translation>Impossible de vérouiller le répertoire de données %s. Adultchain est probablement déjà en cours d'exécution.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4971,16 +4971,16 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Activer la frappe automatique de monnaie à partir d’adresses spécifiques (0-1, par défaut: %u)</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zBECN minting (0-1, default: %u)</source>
-        <translation>Activer les sauvegardes automatiques de portefeuille déclenchées après chaque frappe zBECN (0-1, par défaut: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zXXX minting (0-1, default: %u)</source>
+        <translation>Activer les sauvegardes automatiques de portefeuille déclenchées après chaque frappe zXXX (0-1, par défaut: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for BECN inputs (0-1, default: %u)</source>
-        <translation>Active ou désactive la fonctionnalité de staking pour les entrées BECN (0-1, par défaut: %u)</translation>
+        <source>Enable or disable staking functionality for XXX inputs (0-1, default: %u)</source>
+        <translation>Active ou désactive la fonctionnalité de staking pour les entrées XXX (0-1, par défaut: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zBECN inputs (0-1, default: %u)</source>
-        <translation>Active ou désactive la fonctionnalité de staking pour les entrées zBECN (0-1, par défaut: %u)</translation>
+        <source>Enable or disable staking functionality for zXXX inputs (0-1, default: %u)</source>
+        <translation>Active ou désactive la fonctionnalité de staking pour les entrées zXXX (0-1, par défaut: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -5015,12 +5015,12 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Exécuter la commande lorsque le meilleur bloc change  (%s dans cmd est remplacé par le hash du bloc)</translation>
     </message>
     <message>
-        <source>Fees (in BECN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Les frais (en BECN / Kb) inférieurs à ceux-ci sont considérés comme des frais nuls pour le relais (par défaut: %s)</translation>
+        <source>Fees (in XXX/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Les frais (en XXX / Kb) inférieurs à ceux-ci sont considérés comme des frais nuls pour le relais (par défaut: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BECN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Les frais (en BECN / Kb) inférieurs à cette valeur sont considérés comme des frais nuls pour la création de transaction (par défaut: %s)</translation>
+        <source>Fees (in XXX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Les frais (en XXX / Kb) inférieurs à cette valeur sont considérés comme des frais nuls pour la création de transaction (par défaut: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5135,20 +5135,20 @@ S'il vous plaît soyez patient ...</translation>
         <translation>La longueur totale de la chaîne dans la version réseau (%i) dépasse la longueur maximale (%i). Réduisez le nombre ou la taille des commentaires de l'Agent Utilisateur</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Beacon is probably already running.</source>
-        <translation>Impossible de se lier à %s depuis cet ordinateur. Beacon est probablement déjà en cours d'exécution.</translation>
+        <source>Unable to bind to %s on this computer. Adultchain is probably already running.</source>
+        <translation>Impossible de se lier à %s depuis cet ordinateur. Adultchain est probablement déjà en cours d'exécution.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Incapable de localiser suffisamment de fonds non-dénommés pour l'Obfuscation de cette transaction.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 1000 BECN.</source>
-        <translation>Incapable de localiser suffisamment de fonds non-dénommés pour l'Obfuscation de cette transaction qui ne sont pas égaux à 1000 BECN.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 1000 XXX.</source>
+        <translation>Incapable de localiser suffisamment de fonds non-dénommés pour l'Obfuscation de cette transaction qui ne sont pas égaux à 1000 XXX.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 BECN.</source>
-        <translation>Impossible de grouper assez de fonds pour cette transaction qui n'est pas égale à 1000 BECN.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 XXX.</source>
+        <translation>Impossible de grouper assez de fonds pour cette transaction qui n'est pas égale à 1000 XXX.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5163,8 +5163,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Attention: -paytxfee est réglé très haut! Ce sont les frais de transaction que vous paierez si vous envoyez une transaction.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Beacon will not work properly.</source>
-        <translation>Avertissement: Veuillez vérifier que la date et l'heure de votre ordinateur sont correctes! Si votre horloge est incorrecte, Beacon ne fonctionnera pas correctement.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Adultchain will not work properly.</source>
+        <translation>Avertissement: Veuillez vérifier que la date et l'heure de votre ordinateur sont correctes! Si votre horloge est incorrecte, Adultchain ne fonctionnera pas correctement.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5172,7 +5172,7 @@ S'il vous plaît soyez patient ...</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Attention: Il semble que nous soyons en désaccord avec nos pairs sur le réseau! Cela signifie que vous pourriez avoir besoin de mettre à jour votre Beacon, ou que les autres noeuds aient besoin de se mettre à jour de leur côté.</translation>
+        <translation>Attention: Il semble que nous soyons en désaccord avec nos pairs sur le réseau! Cela signifie que vous pourriez avoir besoin de mettre à jour votre Adultchain, ou que les autres noeuds aient besoin de se mettre à jour de leur côté.</translation>
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
@@ -5304,7 +5304,7 @@ S'il vous plaît soyez patient ...</translation>
     </message>
     <message>
         <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
-        <translation>Copyright (C) 2015-%i Les développeurs de Beacon</translation>
+        <translation>Copyright (C) 2015-%i Les développeurs de Adultchain</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5351,8 +5351,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Activer la frappe automatique Zerocoin (0-1, par défaut: %u)</translation>
     </message>
     <message>
-        <source>Enable precomputation of zBECN spends and stakes (0-1, default %u)</source>
-        <translation>Autoriser le pré-calcul des ZBECN dépensés et stakés (0-1, défaut %u)</translation>
+        <source>Enable precomputation of zXXX spends and stakes (0-1, default %u)</source>
+        <translation>Autoriser le pré-calcul des ZXXX dépensés et stakés (0-1, défaut %u)</translation>
     </message>
     <message>
         <source>Enable publish hash transaction (locked via SwiftX) in &lt;address&gt;</source>
@@ -5387,8 +5387,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Erreur de chargement du fichier wallet.dat: Portefeuille corrompu</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Beacon</source>
-        <translation>Erreur de chargement du fichier wallet.dat: Le portefeuille nécessite une version plus récente du BECN core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Adultchain</source>
+        <translation>Erreur de chargement du fichier wallet.dat: Le portefeuille nécessite une version plus récente du XXX core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -5443,8 +5443,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Impossible de lire le bloc</translation>
     </message>
     <message>
-        <source>Fee (in BECN/kB) to add to transactions you send (default: %s)</source>
-        <translation>Frais (en BECN/kB) à ajouter aux transactions envoyées (défaut: %s)</translation>
+        <source>Fee (in XXX/kB) to add to transactions you send (default: %s)</source>
+        <translation>Frais (en XXX/kB) à ajouter aux transactions envoyées (défaut: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5483,8 +5483,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Beacon is shutting down.</source>
-        <translation>Échec de la vérification de l'initialisation. Beacon va fermer.</translation>
+        <source>Initialization sanity check failed. Adultchain is shutting down.</source>
+        <translation>Échec de la vérification de l'initialisation. Adultchain va fermer.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -5547,20 +5547,20 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Pourcentage de Zerocoin Auto-monnayé (1-100, par défaut: %u)</translation>
     </message>
     <message>
-        <source>Recalculating BECN supply...</source>
-        <translation>Recalcule de BECN émis</translation>
+        <source>Recalculating XXX supply...</source>
+        <translation>Recalcule de XXX émis</translation>
     </message>
     <message>
-        <source>Recalculating minted ZBECN...</source>
-        <translation>Recalcule des ZBECN générés</translation>
+        <source>Recalculating minted ZXXX...</source>
+        <translation>Recalcule des ZXXX générés</translation>
     </message>
     <message>
-        <source>Recalculating spent ZBECN...</source>
-        <translation>Recalcule des ZBECN dépensés</translation>
+        <source>Recalculating spent ZXXX...</source>
+        <translation>Recalcule des ZXXX dépensés</translation>
     </message>
     <message>
-        <source>Reindex the BECN and zBECN money supply statistics</source>
-        <translation>Recalculer les statistiques sur l'approvisionnement en BECN et zBECN</translation>
+        <source>Reindex the XXX and zXXX money supply statistics</source>
+        <translation>Recalculer les statistiques sur l'approvisionnement en XXX et zXXX</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5604,8 +5604,8 @@ S'il vous plaît soyez patient ...</translation>
 </translation>
     </message>
     <message>
-        <source>Disable all BECN specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Désactiver toutes les fonctionnalités spécifiques à BECN (Masternodes, Zerocoin, SwiftX, Budgétisation) (0-1, défaut: %u)</translation>
+        <source>Disable all XXX specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Désactiver toutes les fonctionnalités spécifiques à XXX (Masternodes, Zerocoin, SwiftX, Budgétisation) (0-1, défaut: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -5640,12 +5640,12 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Dénomination préférée pour les Zerocoin Auto-monnayés (1/5/10/50/100/500/1000/5000), 0 pour aucune préférence. par défaut: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zBECN backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Spécifier un chemin de sauvegarde personnalisé pour y ajouter les sauvegardes automatiques zBECN. S'il est paramétré comme un dossier, chaque sauvegarde génère un fichier horodaté. S'il est paramétré comme fichier, chaque sauvegarde écrasera la précédente. Si le chemin de la sauvegarde est défini, il y aura 4 versions de sauvegardes</translation>
+        <source>Specify custom backup path to add a copy of any automatic zXXX backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Spécifier un chemin de sauvegarde personnalisé pour y ajouter les sauvegardes automatiques zXXX. S'il est paramétré comme un dossier, chaque sauvegarde génère un fichier horodaté. S'il est paramétré comme fichier, chaque sauvegarde écrasera la précédente. Si le chemin de la sauvegarde est défini, il y aura 4 versions de sauvegardes</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
-        <translation>Spécifier un chemin de sauvegarde personnalisé pour y ajouter les sauvegardes automatiques zBECN. S'il est paramétré comme un dossier, chaque sauvegarde génère un fichier horodaté. S'il est paramétré comme fichier, chaque sauvegarde écrasera la précédente.</translation>
+        <translation>Spécifier un chemin de sauvegarde personnalisé pour y ajouter les sauvegardes automatiques zXXX. S'il est paramétré comme un dossier, chaque sauvegarde génère un fichier horodaté. S'il est paramétré comme fichier, chaque sauvegarde écrasera la précédente.</translation>
     </message>
     <message>
         <source>SwiftX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
@@ -6060,8 +6060,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Synchronisation des sporks ...</translation>
     </message>
     <message>
-        <source>Syncing zBECN wallet...</source>
-        <translation>Synchronisation du portefeuille zBECN ...</translation>
+        <source>Syncing zXXX wallet...</source>
+        <translation>Synchronisation du portefeuille zXXX ...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -6172,8 +6172,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Nom d'utilisateur pour les connections JSON-RPC</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zBECN</source>
-        <translation>La valeur est inférieure à la plus petite dénomination disponible (= 1) de zBECN</translation>
+        <source>Value is below the smallest available denomination (= 1) of zXXX</source>
+        <translation>La valeur est inférieure à la plus petite dénomination disponible (= 1) de zXXX</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -6184,8 +6184,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Vérification du portefeuille...</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Beacon to complete</source>
-        <translation>Le portefeuille doit être réécrit: redémarrez Beacon pour terminer</translation>
+        <source>Wallet needed to be rewritten: restart Adultchain to complete</source>
+        <translation>Le portefeuille doit être réécrit: redémarrez Adultchain pour terminer</translation>
     </message>
     <message>
         <source>Wallet options:</source>

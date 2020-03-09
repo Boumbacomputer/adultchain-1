@@ -62,18 +62,18 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/beacon.conf are parsed in qt/pivx.cpp's main()
+    // If Qt is used, parameters/adultchain.conf are parsed in qt/pivx.cpp's main()
     ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
     if (mapArgs.count("-?") || mapArgs.count("-help") || mapArgs.count("-version")) {
-        std::string strUsage = _("Beacon Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("Adultchain Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
 
         if (mapArgs.count("-version")) {
             strUsage += LicenseInfo();
         } else {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  beacond [options]                     " + _("Start Beacon Core Daemon") + "\n";
+                        "  adultchaind [options]                     " + _("Start Adultchain Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -113,13 +113,13 @@ bool AppInit(int argc, char* argv[])
                 fCommandLine = true;
 
         if (fCommandLine) {
-            fprintf(stderr, "Error: There is no RPC client functionality in beacond anymore. Use the beacon-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in adultchaind anymore. Use the adultchain-cli utility instead.\n");
             exit(1);
         }
 #ifndef WIN32
         fDaemon = GetBoolArg("-daemon", false);
         if (fDaemon) {
-            fprintf(stdout, "BECN server starting\n");
+            fprintf(stdout, "XXX server starting\n");
 
             // Daemonize
             pid_t pid = fork();
@@ -161,7 +161,7 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
-    // Connect beacond signal handlers
+    // Connect adultchaind signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? 0 : 1);
