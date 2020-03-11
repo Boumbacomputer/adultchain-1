@@ -1997,7 +1997,7 @@ int64_t GetBlockValue(int nHeight)
     switch (nHeight)
     {
 	case 0:                    return 0 * COIN;
-	case 1                     return 800000000 * COIN;
+	case 1:                    return 800000000 * COIN;
 	case 2       ...    35000: return 1 * COIN;
 	case 35001   ...    78200: return 100 * COIN;
 	case 78201   ...   121400: return 90 * COIN;
