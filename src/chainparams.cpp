@@ -118,20 +118,20 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x90;
-        pchMessageStart[1] = 0xc4;
-        pchMessageStart[2] = 0xfd;
-        pchMessageStart[3] = 0xe9;
+        pchMessageStart[0] = 0xb0;
+        pchMessageStart[1] = 0x00;
+        pchMessageStart[2] = 0x00;
+        pchMessageStart[3] = 0xb5;
         vAlertPubKey = ParseHex("023aeba7d6ff62b7761ef0185f113d159391e71f6f51c880214c8a88c5dfb1c97e");
-        nDefaultPort = 11115;
-        bnProofOfWorkLimit = ~uint256(0) >> 20;
+        nDefaultPort = 6900;
+        bnProofOfWorkLimit = uint256("0x0000ffff00000000000000000000000000000000000000000000000000000000");
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 6941; // 75%
         nRejectBlockOutdatedMajority = 8792; // 95%
         nToCheckBlockUpgradeMajority = 9255; // Approximate expected amount of blocks in 7 days (1440*7.5)
         nMinerThreads = 0;
-        nTargetSpacing = 1 * 70;
+        nTargetSpacing = 60;
         nMaturity = 15;
         nStakeMinDepth = nMaturity; // input must be n confirms deep to stake
         nFutureTimeDriftPoW = 7200;
@@ -140,7 +140,7 @@ public:
         nMaxMoneyOut = 21000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 500;
+        nLastPOWBlock = 125;
         nAdultchainBadBlockTime = NEVER;
         nAdultchainBadBlocknBits = 0x1c056dac;
         nModifierUpdateBlock = 64;
@@ -175,7 +175,7 @@ public:
          *
          *    vMerkleTree:  8ed7deab5aa103fa843fe679b48d6d3f22099ee2060dde73a5de9615b5bb01b3
          */
-        const char* pszTimestamp = "adultchaincrypto - done right";
+        const char* pszTimestamp = "adultchain 10032020";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -186,21 +186,17 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1573572825;  // 11/12/2019 @ 3:33pm (UTC)
-        genesis.nBits = 0x1e0ffff0;  // 00000ffff0000000000000000000000000000000000000000000000000000000
-        genesis.nNonce = 488333;
-
+        genesis.nTime = 1583800000;
+        genesis.nBits = 0x1f00ffff;
+        genesis.nNonce = 1525;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000e34499c147af371b3ceb6bf565aa326fbe585825b0f682dda3ab1f9ac92"));
-        assert(genesis.hashMerkleRoot == uint256("0x8ed7deab5aa103fa843fe679b48d6d3f22099ee2060dde73a5de9615b5bb01b3"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 85); // b
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 25); // B
-        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 213);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,75);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,137);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,203);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x02)(0x21)(0x31)(0x2B).convert_to_container<std::vector<unsigned char> >();
-        //  BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x77).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
@@ -255,90 +251,7 @@ static CMainParams mainParams;
 class CTestNetParams : public CMainParams
 {
 public:
-    CTestNetParams()
-    {
-        networkID = CBaseChainParams::TESTNET;
-        strNetworkID = "test";
-        pchMessageStart[0] = 0x45;
-        pchMessageStart[1] = 0x76;
-        pchMessageStart[2] = 0x65;
-        pchMessageStart[3] = 0xba;
-        vAlertPubKey = ParseHex("000010e83b2703ccf322f7dbd62dd5855ac7c10bd055814ce121ba32607d573b8810c02c0582aed05b4deb9c4b77b26d92428c61256cd42774babea0a073b2ed0c9");
-        nDefaultPort = 51474;
-        nEnforceBlockUpgradeMajority = 4320; // 75%
-        nRejectBlockOutdatedMajority = 5472; // 95%
-        nToCheckBlockUpgradeMajority = 5760; // 4 days
-        nMinerThreads = 0;
-        nTargetSpacing = 1 * 60;  // PIVX: 1 minute
-        nLastPOWBlock = 200;
-        nAdultchainBadBlockTime = 1489001494; // Skip nBit validation of Block 259201 per PR #915
-        nAdultchainBadBlocknBits = 0x1e0a20bd; // Skip nBit validation of Block 201 per PR #915
-        nMaturity = 15;
-        nStakeMinDepth = 100;
-        nMasternodeCountDrift = 4;
-        nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
-        nMaxMoneyOut = 43199500 * COIN;
-        nZerocoinStartHeight = 201576;
-        nZerocoinStartTime = 1501776000;
-        nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
-        nBlockRecalculateAccumulators = 9908000; //Trigger a recalculation of accumulators
-        nBlockFirstFraudulent = 9891737; //First block that bad serials emerged
-        nBlockLastGoodCheckpoint = 9891730; //Last valid accumulator checkpoint
-        nBlockEnforceInvalidUTXO = 9902850; //Start enforcing the invalid UTXO's
-        nInvalidAmountFiltered = 0; //Amount of invalid coins filtered through exchanges, that should be considered valid
-        nBlockZerocoinV2 = 444020; //!> The block that zerocoin v2 becomes active
-        nEnforceNewSporkKey = 1566860400; //!> Sporks signed after Monday, August 26, 2019 11:00:00 PM GMT must use the new spork key
-        nRejectOldSporkKey = 1569538800; //!> Reject old spork key after Thursday, September 26, 2019 11:00:00 PM GMT
-        nBlockStakeModifierlV2 = 1214000;
-        // Public coin spend enforcement
-        nPublicZCSpends = 1106100;
-
-        // Fake Serial Attack
-        nFakeSerialBlockheightEnd = -1;
-        nSupplyBeforeFakeSerial = 0;
-
-        //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1454124731;
-        genesis.nNonce = 2402015;
-
-        hashGenesisBlock = genesis.GetHash();
-        // assert(hashGenesisBlock == uint256("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
-
-        vFixedSeeds.clear();
-        vSeeds.clear();
-
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet adultchain addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet adultchain script addresses start with '8' or '9'
-        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-        // Testnet pivx BIP32 pubkeys start with 'DRKV'
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
-        // Testnet pivx BIP32 prvkeys start with 'DRKP'
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
-        // Testnet pivx BIP44 coin type is '1' (All coin's testnet default)
-        base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
-
-        fMiningRequiresPeers = true;
-        fAllowMinDifficultyBlocks = true;
-        fDefaultConsistencyChecks = false;
-        fRequireStandard = true;
-        fMineBlocksOnDemand = false;
-        fTestnetToBeDeprecatedFieldRPC = true;
-
-        nPoolMaxTransactions = 2;
-        nBudgetCycleBlocks = 144; //!< Ten cycles per day on testnet
-        strSporkKey = "04E88BB455E2A04E65FCC41D88CD367E9CCE1F5A409BE94D8C2B4B35D223DED9C8E2F4E061349BA3A38839282508066B6DC4DB72DD432AC4067991E6BF20176127";
-        strSporkKeyOld = "04A8B319388C0F8588D238B9941DC26B26D3F9465266B368A051C5C100F79306A557780101FE2192FE170D7E6DEFDCBEE4C8D533396389C0DAFFDBC842B002243C";
-        strObfuscationPoolDummyAddress = "y57cqfGRkekRyDRNeJiLtYVEbvhXrNbmox";
-        nStartMasternodePayments = 1420837558; //Fri, 09 Jan 2015 21:05:58 GMT
-        nBudget_Fee_Confirmations = 3; // Number of confirmations for the finalization fee. We have to make this very short
-                                       // here because we only have a 8 block finalization window on testnet
-
-        nProposalEstablishmentTime = 60 * 5; // Proposals must be at least 5 mns old to make it into a test budget
-    }
-    const Checkpoints::CCheckpointData& Checkpoints() const
-    {
-        return dataTestnet;
-    }
+    CTestNetParams() {}
 };
 static CTestNetParams testNetParams;
 
@@ -348,72 +261,7 @@ static CTestNetParams testNetParams;
 class CRegTestParams : public CTestNetParams
 {
 public:
-    CRegTestParams()
-    {
-        networkID = CBaseChainParams::REGTEST;
-        strNetworkID = "regtest";
-        pchMessageStart[0] = 0xa1;
-        pchMessageStart[1] = 0xcf;
-        pchMessageStart[2] = 0x7e;
-        pchMessageStart[3] = 0xac;
-        nDefaultPort = 51476;
-        nSubsidyHalvingInterval = 150;
-        nEnforceBlockUpgradeMajority = 750;
-        nRejectBlockOutdatedMajority = 950;
-        nToCheckBlockUpgradeMajority = 1000;
-        nMinerThreads = 1;
-        nTargetSpacing = 1 * 60;        // PIVX: 1 minutes
-        bnProofOfWorkLimit = ~uint256(0) >> 1;
-        nLastPOWBlock = 250;
-        nMaturity = 100;
-        nStakeMinDepth = 0;
-        nMasternodeCountDrift = 4;
-        nModifierUpdateBlock = 0; //approx Mon, 17 Apr 2017 04:00:00 GMT
-        nMaxMoneyOut = 43199500 * COIN;
-        nZerocoinStartHeight = 300;
-        nBlockZerocoinV2 = 300;
-        nZerocoinStartTime = 1501776000;
-        nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
-        nBlockRecalculateAccumulators = 999999999; //Trigger a recalculation of accumulators
-        nBlockFirstFraudulent = 999999999; //First block that bad serials emerged
-        nBlockLastGoodCheckpoint = 999999999; //Last valid accumulator checkpoint
-        nBlockStakeModifierlV2 = std::numeric_limits<int>::max(); // max integer value (never switch on regtest)
-        // Public coin spend enforcement
-        nPublicZCSpends = 350;
-
-        // Fake Serial Attack
-        nFakeSerialBlockheightEnd = -1;
-
-        //! Modify the regtest genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1454124731;
-        genesis.nNonce = 2402015;
-
-        hashGenesisBlock = genesis.GetHash();
-        //assert(hashGenesisBlock == uint256("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
-        //assert(hashGenesisBlock == uint256("0x4f023a2120d9127b21bbad01724fdb79b519f593f2a85b60d3d79160ec5f29df"));
-
-        vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
-        vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
-
-        fMiningRequiresPeers = false;
-        fAllowMinDifficultyBlocks = true;
-        fDefaultConsistencyChecks = true;
-        fRequireStandard = false;
-        fMineBlocksOnDemand = true;
-        fSkipProofOfWorkCheck = true;
-        fTestnetToBeDeprecatedFieldRPC = false;
-
-        /* Spork Key for RegTest:
-        WIF private key: 932HEevBSujW2ud7RfB1YF91AFygbBRQj3de3LyaCRqNzKKgWXi
-        private key hex: bd4960dcbd9e7f2223f24e7164ecb6f1fe96fc3a416f5d3a830ba5720c84b8ca
-        Address: yCvUVd72w7xpimf981m114FSFbmAmne7j9
-        */
-        strSporkKey = "043969b1b0e6f327de37f297a015d37e2235eaaeeb3933deecd8162c075cee0207b13537618bde640879606001a8136091c62ec272dd0133424a178704e6e75bb7";
-    }
-    const Checkpoints::CCheckpointData& Checkpoints() const
-    {
-        return dataRegtest;
-    }
+    CRegTestParams() {}
 };
 static CRegTestParams regTestParams;
 

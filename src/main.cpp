@@ -1994,50 +1994,42 @@ double ConvertBitsToDouble(unsigned int nBits)
 
 int64_t GetBlockValue(int nHeight)
 {
-    int64_t nSubsidy = 0;
-    unsigned int nPhase = 0;
-
-    if (nHeight == 0)
-        return 1200000 * COIN;
-
-    if (nHeight <= 20000) nPhase = 1;
-    if (nHeight > 20000   && nHeight <= 123000)  nPhase = 2;
-    if (nHeight > 123000  && nHeight <= 226000)  nPhase = 3;
-    if (nHeight > 226000  && nHeight <= 329000)  nPhase = 4;
-    if (nHeight > 329000  && nHeight <= 432000)  nPhase = 5;
-    if (nHeight > 432000  && nHeight <= 880000)  nPhase = 6;
-    if (nHeight > 880000  && nHeight <= 1328000) nPhase = 7;
-    if (nHeight > 1328000 && nHeight <= 1776000) nPhase = 8;
-    if (nHeight > 1776000 && nHeight <= 2224000) nPhase = 9;
-    if (nHeight > 2224000) nPhase = 10;
-
-    switch (nPhase) {
-        case 1: nSubsidy = 0.2 * COIN; break;
-        case 2: nSubsidy =   1 * COIN; break;
-        case 3: nSubsidy = 0.8 * COIN; break;
-        case 4: nSubsidy = 0.7 * COIN; break;
-        case 5: nSubsidy = 0.6 * COIN; break;
-        case 6: nSubsidy = 0.5 * COIN; break;
-        case 7: nSubsidy = 0.4 * COIN; break;
-        case 8: nSubsidy = 0.35 * COIN; break;
-        case 9: nSubsidy = 0.3 * COIN; break;
-        case 10: nSubsidy = 0.25 * COIN; break;
-        default: nSubsidy = 0 * COIN;
+    switch (nHeight)
+    {
+	case 0:                    return 0 * COIN;
+	case 1                     return 800000000 * COIN;
+	case 2       ...    35000: return 1 * COIN;
+	case 35001   ...    78200: return 100 * COIN;
+	case 78201   ...   121400: return 90 * COIN;
+	case 121401  ...   164600: return 85 * COIN;
+	case 164601  ...   207800: return 80 * COIN;
+	case 207801  ...   251000: return 75 * COIN;
+	case 251001  ...   776600: return 70 * COIN;
+	case 776601  ...  1302200: return 65 * COIN;
+	case 1302201 ...  1827800: return 60 * COIN;
+	case 1827801 ... 26827800: return 50 * COIN;
+        default:                   return 0 * COIN;
     }
-
-    if (fDebug) {
-        LogPrintf("%s - currently in nPhase %d, blockreward %llu XXX\n",
-                  __func__, nPhase, nSubsidy);
-    }
-
-    return nSubsidy;
+    return 0; //! needed or compiler will whinge
 }
 
 int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount, bool isZPIVStake)
 {
-    if (nHeight > 1)
-        return blockValue * 0.60;
-    return 0;
+    switch (nHeight)
+    {
+        case 1       ...    35000: return blockValue * 0.69;
+        case 35001   ...    78200: return blockValue * 0.69;
+        case 78201   ...   121400: return blockValue * 0.621;
+        case 121401  ...   164600: return blockValue * 0.5865;
+        case 164601  ...   207800: return blockValue * 0.552;
+        case 207801  ...   251000: return blockValue * 0.5175;
+        case 251001  ...   776600: return blockValue * 0.483;
+        case 776601  ...  1302200: return blockValue * 0.4485;
+        case 1302201 ...  1827800: return blockValue * 0.414;
+        case 1827801 ... 26827800: return blockValue * 0.345;
+        default:                   return 0;
+    }
+    return 0; //! needed or compiler will whinge
 }
 
 bool IsInitialBlockDownload()
